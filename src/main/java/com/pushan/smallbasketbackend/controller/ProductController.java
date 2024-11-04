@@ -20,7 +20,7 @@ public class ProductController {
 
     @GetMapping("/products/{id}")
     public Product getProductById(@PathVariable int id) {
-        return service.getProductById(id);
+        return service.getProducts(id);
     }
 
     @PostMapping("/products")
