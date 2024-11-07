@@ -32,4 +32,8 @@ public class ProductService {
     public void deleteProduct(int id) {
         repo.deleteById(id);
     }
+
+    private Product createNullProduct() {
+        return new Product(0, "Doesn't exist", 0);
+    }
 }

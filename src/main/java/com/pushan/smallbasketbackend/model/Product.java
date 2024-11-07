@@ -16,4 +16,5 @@ public class Product {
     private int price;
 
     public Product() {}
+    
 }
